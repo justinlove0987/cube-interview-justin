@@ -13,6 +13,9 @@
 		2A152E8F2B89EA76002FFB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A152E8D2B89EA76002FFB4C /* Main.storyboard */; };
 		2A152E912B89EA78002FFB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A152E902B89EA78002FFB4C /* Assets.xcassets */; };
 		2A152E942B89EA78002FFB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A152E922B89EA78002FFB4C /* LaunchScreen.storyboard */; };
+		2A152E9C2B89EAF5002FFB4C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A152E9B2B89EAF5002FFB4C /* APIController.swift */; };
+		2A152E9F2B89EDCD002FFB4C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A152E9E2B89EDCD002FFB4C /* User.swift */; };
+		2A30D06D2B945A5000DE709D /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A30D06C2B945A5000DE709D /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2A152E902B89EA78002FFB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A152E932B89EA78002FFB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A152E952B89EA78002FFB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A152E9B2B89EAF5002FFB4C /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		2A152E9E2B89EDCD002FFB4C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2A30D06C2B945A5000DE709D /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		2A152E862B89EA76002FFB4C /* cube-interview-justin */ = {
 			isa = PBXGroup;
 			children = (
+				2A152E9D2B89EDC6002FFB4C /* Model */,
 				2A152E872B89EA76002FFB4C /* AppDelegate.swift */,
 				2A152E892B89EA76002FFB4C /* SceneDelegate.swift */,
 				2A152E8B2B89EA76002FFB4C /* ViewController.swift */,
@@ -63,8 +70,18 @@
 				2A152E902B89EA78002FFB4C /* Assets.xcassets */,
 				2A152E922B89EA78002FFB4C /* LaunchScreen.storyboard */,
 				2A152E952B89EA78002FFB4C /* Info.plist */,
+				2A152E9B2B89EAF5002FFB4C /* APIController.swift */,
 			);
 			path = "cube-interview-justin";
+			sourceTree = "<group>";
+		};
+		2A152E9D2B89EDC6002FFB4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A152E9E2B89EDCD002FFB4C /* User.swift */,
+				2A30D06C2B945A5000DE709D /* Friend.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A152E9C2B89EAF5002FFB4C /* APIController.swift in Sources */,
 				2A152E8C2B89EA76002FFB4C /* ViewController.swift in Sources */,
 				2A152E882B89EA76002FFB4C /* AppDelegate.swift in Sources */,
+				2A30D06D2B945A5000DE709D /* Friend.swift in Sources */,
+				2A152E9F2B89EDCD002FFB4C /* User.swift in Sources */,
 				2A152E8A2B89EA76002FFB4C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
